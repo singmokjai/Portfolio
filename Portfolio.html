@@ -12,6 +12,13 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/loading-bar.css"/>
+
+    <script type="text/javascript" src="./assets/js/loading-bar.js"></script> -->
+
+
     <link rel= "stylesheet" href ="./assets/css/style.css">
 
     <link rel= "stylesheet" href ="./assets/css/reset.css">
@@ -23,58 +30,69 @@
 
 <div id="container">
 
-  <!-- <div class ="jumbotron jumbotron-fluid">
-    <div class ="container">
-      <h1>Hi I'm Jason. I'm a web developer.</h1>
+  <div class ="jumbotron jumbotron-fluid" id ="jumbo">
+    <div class ="container" id ="jumbo-overlay">
+      <h1 id ="jumbohead">Hi I'm Jason. I'm a web developer.</h1>
     </div>
-  </div> -->
+  </div>
   
-  <nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top">
+  <nav class="navbar navbar-expand-xl navbar-light sticky-top" id ="nbar">
 
       <button class ="navbar-toggler" data-toggle="collapse" data-target="#nav-collapse">
           <span class ="navbar-toggler-icon"></span>
         </button>
-    
+
     <div class ="collapse navbar-collapse" id ="nav-collapse">
-    <ul class="nav nav-pills ml-auto">
-      <li class ="nav-item"><a href="#content1" class="nav-link active">Content 1</a></li>
-      <li class ="nav-item"><a href="#content2" class="nav-link active">Content 2</a></li>
-      <li class ="nav-item"><a href="#content3" class="nav-link active">Content 3</a></li>
-      <li class ="nav-item"><a href="#content4" class="nav-link active">Content 4</a></li>
+    <ul class="nav nav-pills m-auto" id ="nLink">
+      <li class ="nav-item"><a href="#aboutme" class="nav-link active">About me</a></li>
+      <li class ="nav-item"><a href="#skills" class="nav-link" >Skills</a></li>
+      <li class ="nav-item"><a href="#projects" class="nav-link " >Projects</a></li>
+      <li class ="nav-item"><a href="#contact" class="nav-link " >Contact</a></li>
     </ul>
     </div>
 
   </nav>
   
-  <div id="content1" class="container-fluid bg-success">
-    <h1>Content 1</h1>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
+  <div id="aboutme" class="container-fluid">
+    <div id ="bio">
+      <img id ="bioPic" src ="assets/images/biopic.JPG">
+    </div>
+    <div id ="bioDesc">
+      <h1>Hello I'm Jason, a developer based in NYC.</h1>
+      <h1>I have serious passion for animations, UI effects, and creating dynamic user experiences.</h1>
+    </div>
   </div>
 
-  <div id="content2" class="container-fluid bg-primary">
+  <div id="skills" class="container-fluid">
     <h1>Content 2</h1>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
+    <div id ="iconSect">
+      <div id="leftIcons">
+        <img id ="iconGroup1" src ="assets/png/html-5.png">
+        <img id ="iconGroup1" src ="assets/png/css.png">
+        <img id ="iconGroup1" src ="assets/png/java-script.png">
+      </div>
+
+    <div id ="rightIcons">
+        <img id ="iconGroup2" src ="assets/png/mysql.png">
+        <img id ="iconGroup2" src ="assets/png/nodejs.png">
+        <img id ="iconGroup2" src ="assets/png/react.png">
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id ="progressSect">
+
+    
+
+
+     
+    </div>
   </div>
 
-  <div id="content3" class="container-fluid bg-danger">
+  <div id="projects" class="container-fluid">
     <h1>Content 3</h1>
     <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
     <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
@@ -88,7 +106,7 @@
     <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
   </div>
 
-  <div id="content4" class="container-fluid bg-secondary">
+  <div id="contact" class="container-fluid">
     <h1>Content 4</h1>
     <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
     <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
