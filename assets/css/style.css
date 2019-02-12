@@ -91,7 +91,7 @@ html, body {
 
 #section-aboutme {
 
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding-top: 70px;
 
 }
@@ -142,5 +142,13 @@ html, body {
     padding: 10px;
 
 }
+
+#carouImg {
+
+    width: 100%;
+    height: auto;
+
+}
+
 
 
