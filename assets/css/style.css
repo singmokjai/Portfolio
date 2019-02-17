@@ -20,7 +20,8 @@ html, body {
 
     padding-top: 70px;
     padding-bottom: 70px;
-    background: #f1f2f6;
+    background: #b2bec3;
+    /* background: #f1f2f6; */
 
 }
 
@@ -143,10 +144,23 @@ html, body {
 
 }
 
-#carouImg {
+.carousel-item, #carouImg {
 
     width: 100%;
     height: auto;
+
+}
+
+.carousel-caption {
+
+    padding-top: 50px;
+
+}
+
+.carousel-caption h1 {
+
+    
+    margin-bottom: 50px;
 
 }
 
