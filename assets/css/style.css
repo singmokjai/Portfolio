@@ -151,18 +151,34 @@ html, body {
 
 }
 
-.carousel-caption {
 
-    padding-top: 50px;
-
-}
 
 .carousel-caption h1 {
 
-    
-    margin-bottom: 50px;
+    float: right;
 
 }
+
+#depLink, #codeLink {
+
+    float: right;
+
+}
+
+#depLink {
+
+    margin-right: 40px;
+
+}
+
+#codeLink {
+
+    margin-top: 10px;
+    margin-right: 56px;
+
+}
+
+
 
 
 
