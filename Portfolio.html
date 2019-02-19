@@ -3,6 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta charset="utf-8">
+
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -103,7 +105,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="4000">
-            <h1>uWell</h1>
+            <h1 id="projectTitle">uWell</h1>
           <img src="./assets/png/uwell.PNG" class="d-block w-100" alt="First Slide" id="carouImg">
           <div class ="carousel-caption">
             <a href="https://uwell.herokuapp.com/" id="depLink"><button type="button" class="btn btn-md active btn-outline-info">See deployed version here</button></a>
@@ -114,6 +116,7 @@
           </div>
         </div>
         <div class="carousel-item" data-interval="4000">
+            <h1 id="projectTitle">CheckMate</h1>
           <img src="./assets/png/checkmate.PNG" class="d-block w-100" alt="Second Slide" id="carouImg">
           <div class ="carousel-caption">
             <a href="https://singmokjai.github.io/CheckMate/" id="depLink"><button type="button" class="btn btn-md active btn-outline-info">See deployed version here</button></a>
@@ -124,6 +127,7 @@
           </div>
         </div>
         <div class="carousel-item" data-interval="4000">
+            <h1 id="projectTitle">Trivia</h1>
           <img src="./assets/png/trivia.PNG" class="d-block w-100" alt="Third Slide" id="carouImg">
           <div class ="carousel-caption">
             <a href="https://singmokjai.github.io/TriviaGame/" id="depLink"><button type="button" class="btn btn-md active btn-outline-info">See deployed version here</button></a>
@@ -134,6 +138,7 @@
           </div>
         </div>
         <div class="carousel-item" data-interval="4000">
+            <h1 id="projectTitle">MTA 2.0</h1>
           <img src="./assets/png/train.PNG" class="d-block w-100" alt="Fourth Slide" id="carouImg">
           <div class ="carousel-caption">
             <a href="https://singmokjai.github.io/Firebase-Train/" id="depLink"><button type="button" class="btn btn-md active btn-outline-info">See deployed version here</button></a>
@@ -144,6 +149,7 @@
           </div>
         </div>
         <div class="carousel-item" data-interval="4000">
+            <h1 id="projectTitle">GifTastic</h1>
           <img src="./assets/png/gify.PNG" class="d-block w-100" alt="Fifth Slide" id="carouImg">
           <div class ="carousel-caption">
           <a href="https://singmokjai.github.io/GifTastic/" id="depLink"><button type="button" class="btn btn-md active btn-outline-info">See deployed version here</button></a>
@@ -154,6 +160,7 @@
           </div>
         </div>
         <div class="carousel-item" data-interval="4000">
+            <h1 id="projectTitle">Crystals Collector</h1>
           <img src="./assets/png/crystal.PNG" class="d-block w-100" alt="Sixth Slide" id="carouImg">
           <div class ="carousel-caption">       
             <a href="https://singmokjai.github.io/unit-4-game/" id="depLink"><button type="button" class="btn btn-md active btn-outline-info">See deployed version here</button></a>
@@ -176,17 +183,11 @@
   </div>
 
   <div id="section-contact" class="container-fluid">
-    <h1>Content 4</h1>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
-    <p>falskdfjaslkdfjasldfjalsdfjas;lfjaslfj</p>
+    <div id="contactD">
+    <h1>Let's collaborate!</h1>
+    <h2>I'm currently available for work.</h2>
+    <h2>Have a project to work on? I can help. Get in touch.</h2>
+    </div>
   </div>
 
   </div>
@@ -194,7 +195,7 @@
 <script type="text/javascript">
   $ (function () {
     var scroll = new SmoothScroll('a[href*="#section-"]', {
-      speed: 500
+      speed: 650
     });
   })
 </script>
