@@ -159,23 +159,9 @@ html, body {
 
 }
 
-#depLink, #codeLink {
+#depLink, #codeLink{
 
-    float: right;
-
-}
-
-#depLink {
-
-    margin-top: 10px;
-    margin-right: 220px;
-
-}
-
-#codeLink {
-
-    margin-top: 10px;
-    margin-right: 250px;
+    margin-top: 30px;
 
 }
 
@@ -184,9 +170,15 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 5em;
-    font-style: italic;
-    padding-bottom: 5px;
+
+}
+
+#projectName {
+
+    text-align: center;
+    font-size: 4em;
+    margin-right: 50px;
+    margin-left: 50px;
 
 }
 
@@ -200,7 +192,7 @@ html, body {
 
 #contactD h1 {
 
-    font-size: 4em;
+    font-size: 5em;
     margin-bottom: 5px;
 
 }
