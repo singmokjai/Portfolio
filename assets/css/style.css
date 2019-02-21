@@ -213,10 +213,30 @@ html, body {
 
 #emailIcon, #githubIcon, #linkedinIcon {
 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
 
 }
+
+#emailIcon {
+
+    color: #ff4757;
+
+}
+
+#githubIcon {
+
+    color: #2f3542;
+
+}
+
+#linkedIcon {
+
+    color: #3742fa;
+
+}
+
 
 
 
