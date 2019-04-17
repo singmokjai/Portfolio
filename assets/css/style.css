@@ -5,16 +5,8 @@ html, body {
     padding: 0px;
     margin: 0px;
     font-family: "Oxygen", sans-serif;
-    /* overflow-x: hidden; */
 
 }
-
-/* body {
-
-    padding-top: 20px;
-
-} */
-
 
 #section-aboutme, #section-skills, #section-projects, #section-contact {
 
@@ -40,7 +32,7 @@ html, body {
 #section-contact {
 
     padding-top: 200px;
-    
+
 }
 
 #jumbo {
@@ -53,23 +45,8 @@ html, body {
     bottom: 0;
     margin-bottom: 0px;
     height: 100vh;
-    /* z-index: -10; */
 
 }
-
-#jumbo-overlay { 
-
-    /* position: absolute;
-    background-color: rgba(128,128,128,0.15);
-    top: 0;
-    bottom: 0;
-    margin-bottom: 0px;
-    height: 100%; 
-    max-width: 100%;
-     z-index: -5;  */
-
-
-}  
 
 #jumbohead {
 
@@ -110,7 +87,6 @@ html, body {
 
 #section-aboutme {
 
-    /* margin-top: 20px; */
     padding-top: 70px;
 
 }
