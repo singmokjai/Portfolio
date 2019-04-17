@@ -31,6 +31,18 @@ html, body {
 
 }
 
+#section-skills {
+
+    padding-top: 250px;
+
+}
+
+#section-contact {
+
+    padding-top: 200px;
+    
+}
+
 #jumbo {
 
     background-image: url(../images/jumbobg.JPG);
